@@ -15,6 +15,7 @@ The package is comprised of different components each of which is featured seper
 ### Data availability
 An example dataset including MIR imaging raw data and a brightfield teaching image for correlation with MSI data, as well as all intermediate results that can be produced using the different vignettes is provided in the folder example_data_set under the following folder structure:
 
+``` text
 example_data_set/
 ├── benchmarking_example_ID5a_Rec1/
 │       ├── 1656_unprocessed_co-reg_ID5a.npy
@@ -52,6 +53,7 @@ example_data_set/
          └── reference_based_mapping/
                ├── maskedProjectionImg_ID25.npy
                └── HotSpotMap_reference_based_tumor_ID25.npy
+```
 
 ### Citing _InSpIRe_
 Please cite the associated published article Rittel et al., 2026, Advanced Science.
@@ -59,8 +61,9 @@ Please cite the associated published article Rittel et al., 2026, Advanced Scien
 ### Installation
 Download zip-file, extract and open directory. install the package manually.
 
-´´´bash
+``` bash
 pip install .
-´´´
+```
+
 
 
