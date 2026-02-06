@@ -13,7 +13,7 @@ The package is comprised of different components each of which is featured seper
 * V5: Multimodal correlation of results with MSI data
 
 ### Data availability
-An example dataset including MIR imaging raw data and a brightfield teaching image for correlation with MSI data, as well as all intermediate results that can be produced using the different vignettes is provided in the folder example_data_set under the following folder structure:
+An example dataset including MIR imaging raw data and a brightfield teaching image for correlation with MSI data, as well as all intermediate results that can be produced using the different vignettes is provided on [Zenodo](https://doi.org/10.5281/zenodo.18495815) with the following folder structure:
 
 ``` text
 example_data_set/
@@ -64,6 +64,7 @@ Download zip-file, extract and open directory. install the package manually.
 ``` bash
 pip install .
 ```
+
 
 
 
